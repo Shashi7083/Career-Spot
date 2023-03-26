@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CarrierSpot</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="about_app">Discover your dream job or internship with our easy-to-use app. Explore numerous opportunities across top companies, filter by your preferred role, and apply with just a few clicks. Stay ahead of the game with our comprehensive career resources and land your next big break today.</string>
+
+</resources>

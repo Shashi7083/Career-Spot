@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/top_cmpny"
+    android:layout_width="match_parent"
+    android:layout_height="85dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   app:cardCornerRadius="25dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="18dp"
+
+    android:dividerHeight="0.0px"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_corner_bk"
+        >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="75dp"
+            android:layout_height="74dp"
+            android:layout_margin="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/img_round"
+            android:padding="5dp"
+            android:src="@drawable/cognizant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Company Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#393939"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Hiring"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toTopOf="@+id/imageView2" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_baseline_circle_24"
+            app:layout_constraintStart_toStartOf="@+id/company_name"
+            app:layout_constraintTop_toBottomOf="@+id/company_name" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>
