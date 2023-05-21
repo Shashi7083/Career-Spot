@@ -1,2 +1,2 @@
-# Carrier-Spot
-App where you can find all internship and list of top hiring company with their carrier pages.
+# Career-Spot
+App where you can find all internship and list of top hiring company with their career pages.
